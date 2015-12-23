@@ -1,0 +1,22 @@
+{
+  "name": "seven",
+  "version": "1.0.0",
+  "description": "packaging tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "seven test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asthesky/seven.git"
+  },
+  "keywords": [
+    "seven"
+  ],
+  "author": "asthesky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asthesky/seven/issues"
+  },
+  "homepage": "https://github.com/asthesky/seven#readme"
+}
