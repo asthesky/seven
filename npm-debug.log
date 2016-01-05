@@ -1,0 +1,1707 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '-d',
+1 verbose cli   'fis3' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of D:\MyConfiguration\zy10746\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from D:\MyConfiguration\zy10746\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'fis3', null ]
+7 verbose cache add spec fis3
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'fis3',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'fis3',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed fis3@*
+10 verbose addNamed "*" is a valid semver range for fis3
+11 silly addNameRange { name: 'fis3', range: '*', hasData: false }
+12 silly mapToRegistry name fis3
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/fis3
+16 verbose addNameRange registry:https://registry.npmjs.org/fis3 not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/fis3
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 20:58:34
+20 verbose request using bearer token for auth
+21 verbose request id 6e0682b27cb14a33
+22 verbose etag "4TIBH98A12G3RHP2U6KUCBHEC"
+23 http request GET https://registry.npmjs.org/fis3
+24 http 304 https://registry.npmjs.org/fis3
+25 verbose headers { 'cache-control': 'max-age=300',
+25 verbose headers   'accept-ranges': 'bytes',
+25 verbose headers   date: 'Tue, 29 Dec 2015 12:58:35 GMT',
+25 verbose headers   via: '1.1 varnish',
+25 verbose headers   connection: 'keep-alive',
+25 verbose headers   'x-served-by': 'cache-lhr6323-LHR',
+25 verbose headers   'x-cache': 'MISS',
+25 verbose headers   'x-cache-hits': '0',
+25 verbose headers   'x-timer': 'S1451393915.227041,VS0,VE367' }
+26 silly get cb [ 304,
+26 silly get   { 'cache-control': 'max-age=300',
+26 silly get     'accept-ranges': 'bytes',
+26 silly get     date: 'Tue, 29 Dec 2015 12:58:35 GMT',
+26 silly get     via: '1.1 varnish',
+26 silly get     connection: 'keep-alive',
+26 silly get     'x-served-by': 'cache-lhr6323-LHR',
+26 silly get     'x-cache': 'MISS',
+26 silly get     'x-cache-hits': '0',
+26 silly get     'x-timer': 'S1451393915.227041,VS0,VE367' } ]
+27 verbose etag https://registry.npmjs.org/fis3 from cache
+28 verbose get saving fis3 to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3\.cache.json
+29 silly addNameRange number 2 { name: 'fis3', range: '*', hasData: true }
+30 silly addNameRange versions [ 'fis3',
+30 silly addNameRange   [ '1.0.0-beta',
+30 silly addNameRange     '1.0.0-beta2',
+30 silly addNameRange     '1.0.0-beta3',
+30 silly addNameRange     '1.0.0-beta4',
+30 silly addNameRange     '1.0.0-beta5',
+30 silly addNameRange     '1.0.0-beta6',
+30 silly addNameRange     '1.0.0-beta7',
+30 silly addNameRange     '1.0.0-beta8',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '1.0.6',
+30 silly addNameRange     '1.0.7',
+30 silly addNameRange     '1.0.8',
+30 silly addNameRange     '1.0.9',
+30 silly addNameRange     '1.0.10',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.1.2',
+30 silly addNameRange     '1.1.3',
+30 silly addNameRange     '1.1.4',
+30 silly addNameRange     '1.1.5',
+30 silly addNameRange     '1.1.6',
+30 silly addNameRange     '1.1.7',
+30 silly addNameRange     '1.1.8',
+30 silly addNameRange     '1.1.9',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '1.2.1',
+30 silly addNameRange     '1.2.2',
+30 silly addNameRange     '1.2.3',
+30 silly addNameRange     '1.2.4',
+30 silly addNameRange     '1.2.5',
+30 silly addNameRange     '1.2.6',
+30 silly addNameRange     '1.2.7',
+30 silly addNameRange     '1.2.8',
+30 silly addNameRange     '1.2.9',
+30 silly addNameRange     '1.3.0',
+30 silly addNameRange     '1.3.2',
+30 silly addNameRange     '1.3.3',
+30 silly addNameRange     '1.3.4',
+30 silly addNameRange     '1.3.5',
+30 silly addNameRange     '1.3.6',
+30 silly addNameRange     '1.3.7',
+30 silly addNameRange     '1.3.8',
+30 silly addNameRange     '1.3.9',
+30 silly addNameRange     '3.0.0',
+30 silly addNameRange     '3.0.1',
+30 silly addNameRange     '3.0.2',
+30 silly addNameRange     '3.0.3',
+30 silly addNameRange     '3.0.4',
+30 silly addNameRange     '3.0.5',
+30 silly addNameRange     '3.0.6',
+30 silly addNameRange     '3.0.7',
+30 silly addNameRange     '3.0.8',
+30 silly addNameRange     '3.0.9',
+30 silly addNameRange     '3.0.10',
+30 silly addNameRange     '3.0.11',
+30 silly addNameRange     '3.0.12',
+30 silly addNameRange     '3.0.13',
+30 silly addNameRange     '3.0.14',
+30 silly addNameRange     '3.0.15',
+30 silly addNameRange     '3.0.16',
+30 silly addNameRange     '3.0.17',
+30 silly addNameRange     '3.0.18',
+30 silly addNameRange     '3.0.19',
+30 silly addNameRange     '3.0.20',
+30 silly addNameRange     '3.1.0',
+30 silly addNameRange     '3.1.1',
+30 silly addNameRange     '3.1.2',
+30 silly addNameRange     '3.1.3',
+30 silly addNameRange     '3.1.4',
+30 silly addNameRange     '3.1.5',
+30 silly addNameRange     '3.1.6',
+30 silly addNameRange     '3.1.7',
+30 silly addNameRange     '3.1.8',
+30 silly addNameRange     '3.1.9',
+30 silly addNameRange     '3.2.0',
+30 silly addNameRange     '3.2.1',
+30 silly addNameRange     '3.2.2',
+30 silly addNameRange     '3.2.4',
+30 silly addNameRange     '3.2.6',
+30 silly addNameRange     '3.2.7',
+30 silly addNameRange     '3.2.8',
+30 silly addNameRange     '3.2.9',
+30 silly addNameRange     '3.2.10',
+30 silly addNameRange     '3.2.11',
+30 silly addNameRange     '3.2.12',
+30 silly addNameRange     '3.2.13',
+30 silly addNameRange     '3.3.0',
+30 silly addNameRange     '3.3.1',
+30 silly addNameRange     '3.3.2',
+30 silly addNameRange     '3.3.3',
+30 silly addNameRange     '3.3.4',
+30 silly addNameRange     '3.3.5',
+30 silly addNameRange     '3.3.6',
+30 silly addNameRange     '3.3.7',
+30 silly addNameRange     '3.3.8',
+30 silly addNameRange     '3.3.9' ] ]
+31 silly addNamed fis3@3.3.6
+32 verbose addNamed "3.3.6" is a plain semver version for fis3
+33 silly cache afterAdd fis3@3.3.6
+34 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3\3.3.6\package\package.json not in flight; writing
+35 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3\3.3.6\package\package.json written
+36 silly install resolved [ { name: 'fis3',
+36 silly install resolved     version: '3.3.6',
+36 silly install resolved     description: 'fis 3.0',
+36 silly install resolved     main: 'index.js',
+36 silly install resolved     bin: { fis3: 'bin/fis.js' },
+36 silly install resolved     dependencies:
+36 silly install resolved      { colors: '0.6.2',
+36 silly install resolved        commander: '1.3.2',
+36 silly install resolved        glob: '5.0.3',
+36 silly install resolved        'iconv-lite': '0.2.10',
+36 silly install resolved        liftoff: '2.0.2',
+36 silly install resolved        lodash: '3.6.0',
+36 silly install resolved        minimatch: '2.0.4',
+36 silly install resolved        minimist: '1.1.1',
+36 silly install resolved        resolve: '1.1.6',
+36 silly install resolved        tar: '0.1.17',
+36 silly install resolved        'fis-command-install': '0.2.6',
+36 silly install resolved        'fis-lolcat': '1.0.1',
+36 silly install resolved        'fis-optimizer-clean-css': '0.0.9',
+36 silly install resolved        'fis-optimizer-png-compressor': '0.1.2',
+36 silly install resolved        'fis-optimizer-uglify-js': '0.1.10',
+36 silly install resolved        'fis-spriter-csssprites': '0.3.6',
+36 silly install resolved        'fis3-command-init': '1.0.11',
+36 silly install resolved        'fis3-command-inspect': '1.0.3',
+36 silly install resolved        'fis3-command-release': '1.2.9',
+36 silly install resolved        'fis3-command-server': '0.0.8',
+36 silly install resolved        'fis3-server-node': '0.0.6',
+36 silly install resolved        'fis3-deploy-local-deliver': '1.0.0',
+36 silly install resolved        'fis3-deploy-http-push': '1.0.1',
+36 silly install resolved        'fis3-deploy-encoding': '1.0.0',
+36 silly install resolved        'fis3-hook-components': '1.0.2',
+36 silly install resolved        'fis3-packager-map': '1.0.9',
+36 silly install resolved        'fis3-errors': '*' },
+36 silly install resolved     devDependencies:
+36 silly install resolved      { chai: '^2.2.0',
+36 silly install resolved        jsdoc: '^3.3.2',
+36 silly install resolved        minami: 'git://github.com/2betop/minami.git',
+36 silly install resolved        mocha: '^2.2.1',
+36 silly install resolved        'mocha-junit-reporter': '^1.4.0',
+36 silly install resolved        'npm-watch': '0.0.0',
+36 silly install resolved        istanbul: '~0.2.14',
+36 silly install resolved        coveralls: '2.10.0',
+36 silly install resolved        'fis3-deploy-local-deliver': '1.0.0',
+36 silly install resolved        'fis3-postpackager-loader': '1.2.7',
+36 silly install resolved        'fis3-hook-cmd': '0.0.1' },
+36 silly install resolved     watch: { jsdoc: 'lib/*.js' },
+36 silly install resolved     scripts:
+36 silly install resolved      { test: 'mocha test',
+36 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test',
+36 silly install resolved        jsdoc: 'jsdoc --readme ./doc/docs/api/dev-plugin.md ./lib -r -t ./node_modules/minami -c .jsdoc.json -d ./doc/api',
+36 silly install resolved        watch: 'npm-watch',
+36 silly install resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha test/*.js' },
+36 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/fex-team/fis3.git' },
+36 silly install resolved     keywords: [ 'fis' ],
+36 silly install resolved     author: { name: 'fis' },
+36 silly install resolved     license: 'BSD',
+36 silly install resolved     bugs: { url: 'https://github.com/fex-team/fis3/issues' },
+36 silly install resolved     homepage: 'https://github.com/fex-team/fis3',
+36 silly install resolved     gitHead: '370714f7ca811231abffcc34069ceed92bf655e7',
+36 silly install resolved     _id: 'fis3@3.3.6',
+36 silly install resolved     _shasum: '131aa426518778dd6b57c4aad48cd5ee898765ba',
+36 silly install resolved     _from: 'fis3@*',
+36 silly install resolved     _npmVersion: '2.7.4',
+36 silly install resolved     _nodeVersion: '0.12.2',
+36 silly install resolved     _npmUser: { name: '2betop', email: '2betop.cn@gmail.com' },
+36 silly install resolved     dist:
+36 silly install resolved      { shasum: '131aa426518778dd6b57c4aad48cd5ee898765ba',
+36 silly install resolved        size: 47048,
+36 silly install resolved        noattachment: false,
+36 silly install resolved        tarball: 'http://registry.npm.taobao.org/fis3/download/fis3-3.3.6.tgz' },
+36 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+36 silly install resolved     directories: {},
+36 silly install resolved     publish_time: 1450186836611,
+36 silly install resolved     _cnpm_publish_time: 1450186836611,
+36 silly install resolved     _resolved: 'http://registry.npm.taobao.org/fis3/download/fis3-3.3.6.tgz',
+36 silly install resolved     readme: 'ERROR: No README data found!' } ]
+37 info install fis3@3.3.6 into D:\MyConfiguration\zy10746\AppData\Roaming\npm
+38 info installOne fis3@3.3.6
+39 verbose installOne of fis3 to D:\MyConfiguration\zy10746\AppData\Roaming\npm not in flight; installing
+40 verbose lock using D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\_locks\fis3-e3fb25e763638c64.lock for D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+41 silly install write writing fis3 3.3.6 to D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+42 verbose unbuild node_modules\fis3
+43 info preuninstall fis3@3.3.6
+44 info uninstall fis3@3.3.6
+45 verbose unbuild rmStuff fis3@3.3.6 from D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules
+46 silly gentlyRm D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3.cmd is being gently removed
+47 silly gentlyRm verifying D:\MyConfiguration\zy10746\AppData\Roaming\npm is an npm working directory
+48 silly gentlyRm containing path D:\MyConfiguration\zy10746\AppData\Roaming\npm is under npm's control, in D:\MyConfiguration\zy10746\AppData\Roaming\npm
+49 silly gentlyRm deletion target D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3.cmd is under D:\MyConfiguration\zy10746\AppData\Roaming\npm
+50 verbose gentlyRm vacuuming from D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3.cmd up to D:\MyConfiguration\zy10746\AppData\Roaming\npm
+51 silly gentlyRm D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3 is being gently removed
+52 silly gentlyRm verifying D:\MyConfiguration\zy10746\AppData\Roaming\npm is an npm working directory
+53 silly gentlyRm containing path D:\MyConfiguration\zy10746\AppData\Roaming\npm is under npm's control, in D:\MyConfiguration\zy10746\AppData\Roaming\npm
+54 silly gentlyRm deletion target D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3 is under D:\MyConfiguration\zy10746\AppData\Roaming\npm
+55 verbose gentlyRm vacuuming from D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3 up to D:\MyConfiguration\zy10746\AppData\Roaming\npm
+56 info postuninstall fis3@3.3.6
+57 silly gentlyRm D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3 is being purged from base D:\MyConfiguration\zy10746\AppData\Roaming\npm
+58 verbose gentlyRm don't care about contents; nuking D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+59 silly vacuum-fs purging D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+60 silly vacuum-fs quitting because other entries in D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules
+61 verbose tar unpack D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3\3.3.6\package.tgz
+62 verbose tar unpacking to D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+63 silly gentlyRm D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3 is being purged
+64 verbose gentlyRm don't care about contents; nuking D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+65 silly gunzTarPerm modes [ '777', '666' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+72 silly gunzTarPerm extractEntry LICENSE
+73 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+74 silly gunzTarPerm extractEntry index.js
+75 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry CHANGELOG.md
+77 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+78 silly gunzTarPerm extractEntry .jsdoc.json
+79 silly gunzTarPerm modified mode [ '.jsdoc.json', 420, 438 ]
+80 silly gunzTarPerm extractEntry bin/fis.js
+81 silly gunzTarPerm modified mode [ 'bin/fis.js', 493, 511 ]
+82 silly gunzTarPerm extractEntry lib/cache.js
+83 silly gunzTarPerm modified mode [ 'lib/cache.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry lib/compile.js
+85 silly gunzTarPerm modified mode [ 'lib/compile.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry lib/config.js
+87 silly gunzTarPerm modified mode [ 'lib/config.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry lib/file.js
+89 silly gunzTarPerm modified mode [ 'lib/file.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry lib/cli.js
+91 silly gunzTarPerm modified mode [ 'lib/cli.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry lib/log.js
+93 silly gunzTarPerm modified mode [ 'lib/log.js', 420, 438 ]
+94 silly gunzTarPerm extractEntry lib/project.js
+95 silly gunzTarPerm modified mode [ 'lib/project.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry lib/release.js
+97 silly gunzTarPerm modified mode [ 'lib/release.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry lib/uri.js
+99 silly gunzTarPerm modified mode [ 'lib/uri.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry lib/util.js
+101 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+102 silly gunzTarPerm extractEntry lib/fis.js
+103 silly gunzTarPerm modified mode [ 'lib/fis.js', 420, 438 ]
+104 silly gunzTarPerm extractEntry .editorconfig
+105 silly gunzTarPerm modified mode [ '.editorconfig', 420, 438 ]
+106 verbose write writing to D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3\package.json
+107 info preinstall fis3@3.3.6
+108 verbose readDependencies loading dependencies from D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3\package.json
+109 silly prepareForInstallMany adding colors@0.6.2 from fis3 dependencies
+110 silly prepareForInstallMany adding commander@1.3.2 from fis3 dependencies
+111 silly prepareForInstallMany adding glob@5.0.3 from fis3 dependencies
+112 silly prepareForInstallMany adding iconv-lite@0.2.10 from fis3 dependencies
+113 silly prepareForInstallMany adding liftoff@2.0.2 from fis3 dependencies
+114 silly prepareForInstallMany adding lodash@3.6.0 from fis3 dependencies
+115 silly prepareForInstallMany adding minimatch@2.0.4 from fis3 dependencies
+116 silly prepareForInstallMany adding minimist@1.1.1 from fis3 dependencies
+117 silly prepareForInstallMany adding resolve@1.1.6 from fis3 dependencies
+118 silly prepareForInstallMany adding tar@0.1.17 from fis3 dependencies
+119 silly prepareForInstallMany adding fis-command-install@0.2.6 from fis3 dependencies
+120 silly prepareForInstallMany adding fis-lolcat@1.0.1 from fis3 dependencies
+121 silly prepareForInstallMany adding fis-optimizer-clean-css@0.0.9 from fis3 dependencies
+122 silly prepareForInstallMany adding fis-optimizer-png-compressor@0.1.2 from fis3 dependencies
+123 silly prepareForInstallMany adding fis-optimizer-uglify-js@0.1.10 from fis3 dependencies
+124 silly prepareForInstallMany adding fis-spriter-csssprites@0.3.6 from fis3 dependencies
+125 silly prepareForInstallMany adding fis3-command-init@1.0.11 from fis3 dependencies
+126 silly prepareForInstallMany adding fis3-command-inspect@1.0.3 from fis3 dependencies
+127 silly prepareForInstallMany adding fis3-command-release@1.2.9 from fis3 dependencies
+128 silly prepareForInstallMany adding fis3-command-server@0.0.8 from fis3 dependencies
+129 silly prepareForInstallMany adding fis3-server-node@0.0.6 from fis3 dependencies
+130 silly prepareForInstallMany adding fis3-deploy-local-deliver@1.0.0 from fis3 dependencies
+131 silly prepareForInstallMany adding fis3-deploy-http-push@1.0.1 from fis3 dependencies
+132 silly prepareForInstallMany adding fis3-deploy-encoding@1.0.0 from fis3 dependencies
+133 silly prepareForInstallMany adding fis3-hook-components@1.0.2 from fis3 dependencies
+134 silly prepareForInstallMany adding fis3-packager-map@1.0.9 from fis3 dependencies
+135 silly prepareForInstallMany adding fis3-errors@* from fis3 dependencies
+136 verbose readDependencies loading dependencies from D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3\package.json
+137 silly cache add args [ 'glob@5.0.3', null ]
+138 verbose cache add spec glob@5.0.3
+139 silly cache add parsed spec Result {
+139 silly cache add   raw: 'glob@5.0.3',
+139 silly cache add   scope: null,
+139 silly cache add   name: 'glob',
+139 silly cache add   rawSpec: '5.0.3',
+139 silly cache add   spec: '5.0.3',
+139 silly cache add   type: 'version' }
+140 silly addNamed glob@5.0.3
+141 verbose addNamed "5.0.3" is a plain semver version for glob
+142 silly mapToRegistry name glob
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/glob
+146 verbose addNameVersion registry:https://registry.npmjs.org/glob not in flight; fetching
+147 silly cache add args [ 'iconv-lite@0.2.10', null ]
+148 verbose cache add spec iconv-lite@0.2.10
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'iconv-lite@0.2.10',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'iconv-lite',
+149 silly cache add   rawSpec: '0.2.10',
+149 silly cache add   spec: '0.2.10',
+149 silly cache add   type: 'version' }
+150 silly addNamed iconv-lite@0.2.10
+151 verbose addNamed "0.2.10" is a plain semver version for iconv-lite
+152 silly mapToRegistry name iconv-lite
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
+156 verbose addNameVersion registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
+157 silly cache add args [ 'liftoff@2.0.2', null ]
+158 verbose cache add spec liftoff@2.0.2
+159 silly cache add parsed spec Result {
+159 silly cache add   raw: 'liftoff@2.0.2',
+159 silly cache add   scope: null,
+159 silly cache add   name: 'liftoff',
+159 silly cache add   rawSpec: '2.0.2',
+159 silly cache add   spec: '2.0.2',
+159 silly cache add   type: 'version' }
+160 silly addNamed liftoff@2.0.2
+161 verbose addNamed "2.0.2" is a plain semver version for liftoff
+162 silly mapToRegistry name liftoff
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry uri https://registry.npmjs.org/liftoff
+166 verbose addNameVersion registry:https://registry.npmjs.org/liftoff not in flight; fetching
+167 silly cache add args [ 'lodash@3.6.0', null ]
+168 verbose cache add spec lodash@3.6.0
+169 silly cache add parsed spec Result {
+169 silly cache add   raw: 'lodash@3.6.0',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'lodash',
+169 silly cache add   rawSpec: '3.6.0',
+169 silly cache add   spec: '3.6.0',
+169 silly cache add   type: 'version' }
+170 silly addNamed lodash@3.6.0
+171 verbose addNamed "3.6.0" is a plain semver version for lodash
+172 silly mapToRegistry name lodash
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry uri https://registry.npmjs.org/lodash
+176 verbose addNameVersion registry:https://registry.npmjs.org/lodash not in flight; fetching
+177 silly cache add args [ 'minimatch@2.0.4', null ]
+178 verbose cache add spec minimatch@2.0.4
+179 silly cache add parsed spec Result {
+179 silly cache add   raw: 'minimatch@2.0.4',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'minimatch',
+179 silly cache add   rawSpec: '2.0.4',
+179 silly cache add   spec: '2.0.4',
+179 silly cache add   type: 'version' }
+180 silly addNamed minimatch@2.0.4
+181 verbose addNamed "2.0.4" is a plain semver version for minimatch
+182 silly mapToRegistry name minimatch
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+186 verbose addNameVersion registry:https://registry.npmjs.org/minimatch not in flight; fetching
+187 verbose request uri https://registry.npmjs.org/glob
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 20:58:35
+190 verbose request using bearer token for auth
+191 verbose etag "35BW2PZITMBWTVHPL2Z8HULBB"
+192 http request GET https://registry.npmjs.org/glob
+193 silly cache add args [ 'minimist@1.1.1', null ]
+194 verbose cache add spec minimist@1.1.1
+195 silly cache add parsed spec Result {
+195 silly cache add   raw: 'minimist@1.1.1',
+195 silly cache add   scope: null,
+195 silly cache add   name: 'minimist',
+195 silly cache add   rawSpec: '1.1.1',
+195 silly cache add   spec: '1.1.1',
+195 silly cache add   type: 'version' }
+196 silly addNamed minimist@1.1.1
+197 verbose addNamed "1.1.1" is a plain semver version for minimist
+198 silly mapToRegistry name minimist
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry uri https://registry.npmjs.org/minimist
+202 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+203 silly cache add args [ 'resolve@1.1.6', null ]
+204 verbose cache add spec resolve@1.1.6
+205 silly cache add parsed spec Result {
+205 silly cache add   raw: 'resolve@1.1.6',
+205 silly cache add   scope: null,
+205 silly cache add   name: 'resolve',
+205 silly cache add   rawSpec: '1.1.6',
+205 silly cache add   spec: '1.1.6',
+205 silly cache add   type: 'version' }
+206 silly addNamed resolve@1.1.6
+207 verbose addNamed "1.1.6" is a plain semver version for resolve
+208 silly mapToRegistry name resolve
+209 silly mapToRegistry using default registry
+210 silly mapToRegistry registry https://registry.npmjs.org/
+211 silly mapToRegistry uri https://registry.npmjs.org/resolve
+212 verbose addNameVersion registry:https://registry.npmjs.org/resolve not in flight; fetching
+213 silly cache add args [ 'tar@0.1.17', null ]
+214 verbose cache add spec tar@0.1.17
+215 silly cache add parsed spec Result {
+215 silly cache add   raw: 'tar@0.1.17',
+215 silly cache add   scope: null,
+215 silly cache add   name: 'tar',
+215 silly cache add   rawSpec: '0.1.17',
+215 silly cache add   spec: '0.1.17',
+215 silly cache add   type: 'version' }
+216 silly addNamed tar@0.1.17
+217 verbose addNamed "0.1.17" is a plain semver version for tar
+218 silly mapToRegistry name tar
+219 silly mapToRegistry using default registry
+220 silly mapToRegistry registry https://registry.npmjs.org/
+221 silly mapToRegistry uri https://registry.npmjs.org/tar
+222 verbose addNameVersion registry:https://registry.npmjs.org/tar not in flight; fetching
+223 silly cache add args [ 'fis-command-install@0.2.6', null ]
+224 verbose cache add spec fis-command-install@0.2.6
+225 silly cache add parsed spec Result {
+225 silly cache add   raw: 'fis-command-install@0.2.6',
+225 silly cache add   scope: null,
+225 silly cache add   name: 'fis-command-install',
+225 silly cache add   rawSpec: '0.2.6',
+225 silly cache add   spec: '0.2.6',
+225 silly cache add   type: 'version' }
+226 silly addNamed fis-command-install@0.2.6
+227 verbose addNamed "0.2.6" is a plain semver version for fis-command-install
+228 silly mapToRegistry name fis-command-install
+229 silly mapToRegistry using default registry
+230 silly mapToRegistry registry https://registry.npmjs.org/
+231 silly mapToRegistry uri https://registry.npmjs.org/fis-command-install
+232 verbose addNameVersion registry:https://registry.npmjs.org/fis-command-install not in flight; fetching
+233 silly cache add args [ 'fis-lolcat@1.0.1', null ]
+234 verbose cache add spec fis-lolcat@1.0.1
+235 silly cache add parsed spec Result {
+235 silly cache add   raw: 'fis-lolcat@1.0.1',
+235 silly cache add   scope: null,
+235 silly cache add   name: 'fis-lolcat',
+235 silly cache add   rawSpec: '1.0.1',
+235 silly cache add   spec: '1.0.1',
+235 silly cache add   type: 'version' }
+236 silly addNamed fis-lolcat@1.0.1
+237 verbose addNamed "1.0.1" is a plain semver version for fis-lolcat
+238 silly mapToRegistry name fis-lolcat
+239 silly mapToRegistry using default registry
+240 silly mapToRegistry registry https://registry.npmjs.org/
+241 silly mapToRegistry uri https://registry.npmjs.org/fis-lolcat
+242 verbose addNameVersion registry:https://registry.npmjs.org/fis-lolcat not in flight; fetching
+243 silly cache add args [ 'fis-optimizer-clean-css@0.0.9', null ]
+244 verbose cache add spec fis-optimizer-clean-css@0.0.9
+245 silly cache add parsed spec Result {
+245 silly cache add   raw: 'fis-optimizer-clean-css@0.0.9',
+245 silly cache add   scope: null,
+245 silly cache add   name: 'fis-optimizer-clean-css',
+245 silly cache add   rawSpec: '0.0.9',
+245 silly cache add   spec: '0.0.9',
+245 silly cache add   type: 'version' }
+246 silly addNamed fis-optimizer-clean-css@0.0.9
+247 verbose addNamed "0.0.9" is a plain semver version for fis-optimizer-clean-css
+248 silly mapToRegistry name fis-optimizer-clean-css
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npmjs.org/
+251 silly mapToRegistry uri https://registry.npmjs.org/fis-optimizer-clean-css
+252 verbose addNameVersion registry:https://registry.npmjs.org/fis-optimizer-clean-css not in flight; fetching
+253 silly cache add args [ 'fis-optimizer-png-compressor@0.1.2', null ]
+254 verbose cache add spec fis-optimizer-png-compressor@0.1.2
+255 silly cache add parsed spec Result {
+255 silly cache add   raw: 'fis-optimizer-png-compressor@0.1.2',
+255 silly cache add   scope: null,
+255 silly cache add   name: 'fis-optimizer-png-compressor',
+255 silly cache add   rawSpec: '0.1.2',
+255 silly cache add   spec: '0.1.2',
+255 silly cache add   type: 'version' }
+256 silly addNamed fis-optimizer-png-compressor@0.1.2
+257 verbose addNamed "0.1.2" is a plain semver version for fis-optimizer-png-compressor
+258 silly mapToRegistry name fis-optimizer-png-compressor
+259 silly mapToRegistry using default registry
+260 silly mapToRegistry registry https://registry.npmjs.org/
+261 silly mapToRegistry uri https://registry.npmjs.org/fis-optimizer-png-compressor
+262 verbose addNameVersion registry:https://registry.npmjs.org/fis-optimizer-png-compressor not in flight; fetching
+263 silly cache add args [ 'fis-optimizer-uglify-js@0.1.10', null ]
+264 verbose cache add spec fis-optimizer-uglify-js@0.1.10
+265 silly cache add parsed spec Result {
+265 silly cache add   raw: 'fis-optimizer-uglify-js@0.1.10',
+265 silly cache add   scope: null,
+265 silly cache add   name: 'fis-optimizer-uglify-js',
+265 silly cache add   rawSpec: '0.1.10',
+265 silly cache add   spec: '0.1.10',
+265 silly cache add   type: 'version' }
+266 silly addNamed fis-optimizer-uglify-js@0.1.10
+267 verbose addNamed "0.1.10" is a plain semver version for fis-optimizer-uglify-js
+268 silly mapToRegistry name fis-optimizer-uglify-js
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://registry.npmjs.org/
+271 silly mapToRegistry uri https://registry.npmjs.org/fis-optimizer-uglify-js
+272 verbose addNameVersion registry:https://registry.npmjs.org/fis-optimizer-uglify-js not in flight; fetching
+273 silly cache add args [ 'fis-spriter-csssprites@0.3.6', null ]
+274 verbose cache add spec fis-spriter-csssprites@0.3.6
+275 silly cache add parsed spec Result {
+275 silly cache add   raw: 'fis-spriter-csssprites@0.3.6',
+275 silly cache add   scope: null,
+275 silly cache add   name: 'fis-spriter-csssprites',
+275 silly cache add   rawSpec: '0.3.6',
+275 silly cache add   spec: '0.3.6',
+275 silly cache add   type: 'version' }
+276 silly addNamed fis-spriter-csssprites@0.3.6
+277 verbose addNamed "0.3.6" is a plain semver version for fis-spriter-csssprites
+278 silly mapToRegistry name fis-spriter-csssprites
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/fis-spriter-csssprites
+282 verbose addNameVersion registry:https://registry.npmjs.org/fis-spriter-csssprites not in flight; fetching
+283 silly cache add args [ 'fis3-command-init@1.0.11', null ]
+284 verbose cache add spec fis3-command-init@1.0.11
+285 silly cache add parsed spec Result {
+285 silly cache add   raw: 'fis3-command-init@1.0.11',
+285 silly cache add   scope: null,
+285 silly cache add   name: 'fis3-command-init',
+285 silly cache add   rawSpec: '1.0.11',
+285 silly cache add   spec: '1.0.11',
+285 silly cache add   type: 'version' }
+286 silly addNamed fis3-command-init@1.0.11
+287 verbose addNamed "1.0.11" is a plain semver version for fis3-command-init
+288 silly mapToRegistry name fis3-command-init
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npmjs.org/
+291 silly mapToRegistry uri https://registry.npmjs.org/fis3-command-init
+292 verbose addNameVersion registry:https://registry.npmjs.org/fis3-command-init not in flight; fetching
+293 silly cache add args [ 'fis3-command-inspect@1.0.3', null ]
+294 verbose cache add spec fis3-command-inspect@1.0.3
+295 silly cache add parsed spec Result {
+295 silly cache add   raw: 'fis3-command-inspect@1.0.3',
+295 silly cache add   scope: null,
+295 silly cache add   name: 'fis3-command-inspect',
+295 silly cache add   rawSpec: '1.0.3',
+295 silly cache add   spec: '1.0.3',
+295 silly cache add   type: 'version' }
+296 silly addNamed fis3-command-inspect@1.0.3
+297 verbose addNamed "1.0.3" is a plain semver version for fis3-command-inspect
+298 silly mapToRegistry name fis3-command-inspect
+299 silly mapToRegistry using default registry
+300 silly mapToRegistry registry https://registry.npmjs.org/
+301 silly mapToRegistry uri https://registry.npmjs.org/fis3-command-inspect
+302 verbose addNameVersion registry:https://registry.npmjs.org/fis3-command-inspect not in flight; fetching
+303 silly cache add args [ 'fis3-command-release@1.2.9', null ]
+304 verbose cache add spec fis3-command-release@1.2.9
+305 silly cache add parsed spec Result {
+305 silly cache add   raw: 'fis3-command-release@1.2.9',
+305 silly cache add   scope: null,
+305 silly cache add   name: 'fis3-command-release',
+305 silly cache add   rawSpec: '1.2.9',
+305 silly cache add   spec: '1.2.9',
+305 silly cache add   type: 'version' }
+306 silly addNamed fis3-command-release@1.2.9
+307 verbose addNamed "1.2.9" is a plain semver version for fis3-command-release
+308 silly mapToRegistry name fis3-command-release
+309 silly mapToRegistry using default registry
+310 silly mapToRegistry registry https://registry.npmjs.org/
+311 silly mapToRegistry uri https://registry.npmjs.org/fis3-command-release
+312 verbose addNameVersion registry:https://registry.npmjs.org/fis3-command-release not in flight; fetching
+313 silly cache add args [ 'fis3-command-server@0.0.8', null ]
+314 verbose cache add spec fis3-command-server@0.0.8
+315 silly cache add parsed spec Result {
+315 silly cache add   raw: 'fis3-command-server@0.0.8',
+315 silly cache add   scope: null,
+315 silly cache add   name: 'fis3-command-server',
+315 silly cache add   rawSpec: '0.0.8',
+315 silly cache add   spec: '0.0.8',
+315 silly cache add   type: 'version' }
+316 silly addNamed fis3-command-server@0.0.8
+317 verbose addNamed "0.0.8" is a plain semver version for fis3-command-server
+318 silly mapToRegistry name fis3-command-server
+319 silly mapToRegistry using default registry
+320 silly mapToRegistry registry https://registry.npmjs.org/
+321 silly mapToRegistry uri https://registry.npmjs.org/fis3-command-server
+322 verbose addNameVersion registry:https://registry.npmjs.org/fis3-command-server not in flight; fetching
+323 silly cache add args [ 'fis3-server-node@0.0.6', null ]
+324 verbose cache add spec fis3-server-node@0.0.6
+325 silly cache add parsed spec Result {
+325 silly cache add   raw: 'fis3-server-node@0.0.6',
+325 silly cache add   scope: null,
+325 silly cache add   name: 'fis3-server-node',
+325 silly cache add   rawSpec: '0.0.6',
+325 silly cache add   spec: '0.0.6',
+325 silly cache add   type: 'version' }
+326 silly addNamed fis3-server-node@0.0.6
+327 verbose addNamed "0.0.6" is a plain semver version for fis3-server-node
+328 silly mapToRegistry name fis3-server-node
+329 silly mapToRegistry using default registry
+330 silly mapToRegistry registry https://registry.npmjs.org/
+331 silly mapToRegistry uri https://registry.npmjs.org/fis3-server-node
+332 verbose addNameVersion registry:https://registry.npmjs.org/fis3-server-node not in flight; fetching
+333 silly cache add args [ 'fis3-deploy-local-deliver@1.0.0', null ]
+334 verbose cache add spec fis3-deploy-local-deliver@1.0.0
+335 silly cache add parsed spec Result {
+335 silly cache add   raw: 'fis3-deploy-local-deliver@1.0.0',
+335 silly cache add   scope: null,
+335 silly cache add   name: 'fis3-deploy-local-deliver',
+335 silly cache add   rawSpec: '1.0.0',
+335 silly cache add   spec: '1.0.0',
+335 silly cache add   type: 'version' }
+336 silly addNamed fis3-deploy-local-deliver@1.0.0
+337 verbose addNamed "1.0.0" is a plain semver version for fis3-deploy-local-deliver
+338 silly mapToRegistry name fis3-deploy-local-deliver
+339 silly mapToRegistry using default registry
+340 silly mapToRegistry registry https://registry.npmjs.org/
+341 silly mapToRegistry uri https://registry.npmjs.org/fis3-deploy-local-deliver
+342 verbose addNameVersion registry:https://registry.npmjs.org/fis3-deploy-local-deliver not in flight; fetching
+343 silly cache add args [ 'fis3-deploy-http-push@1.0.1', null ]
+344 verbose cache add spec fis3-deploy-http-push@1.0.1
+345 silly cache add parsed spec Result {
+345 silly cache add   raw: 'fis3-deploy-http-push@1.0.1',
+345 silly cache add   scope: null,
+345 silly cache add   name: 'fis3-deploy-http-push',
+345 silly cache add   rawSpec: '1.0.1',
+345 silly cache add   spec: '1.0.1',
+345 silly cache add   type: 'version' }
+346 silly addNamed fis3-deploy-http-push@1.0.1
+347 verbose addNamed "1.0.1" is a plain semver version for fis3-deploy-http-push
+348 silly mapToRegistry name fis3-deploy-http-push
+349 silly mapToRegistry using default registry
+350 silly mapToRegistry registry https://registry.npmjs.org/
+351 silly mapToRegistry uri https://registry.npmjs.org/fis3-deploy-http-push
+352 verbose addNameVersion registry:https://registry.npmjs.org/fis3-deploy-http-push not in flight; fetching
+353 silly cache add args [ 'fis3-deploy-encoding@1.0.0', null ]
+354 verbose cache add spec fis3-deploy-encoding@1.0.0
+355 silly cache add parsed spec Result {
+355 silly cache add   raw: 'fis3-deploy-encoding@1.0.0',
+355 silly cache add   scope: null,
+355 silly cache add   name: 'fis3-deploy-encoding',
+355 silly cache add   rawSpec: '1.0.0',
+355 silly cache add   spec: '1.0.0',
+355 silly cache add   type: 'version' }
+356 silly addNamed fis3-deploy-encoding@1.0.0
+357 verbose addNamed "1.0.0" is a plain semver version for fis3-deploy-encoding
+358 silly mapToRegistry name fis3-deploy-encoding
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry https://registry.npmjs.org/
+361 silly mapToRegistry uri https://registry.npmjs.org/fis3-deploy-encoding
+362 verbose addNameVersion registry:https://registry.npmjs.org/fis3-deploy-encoding not in flight; fetching
+363 silly cache add args [ 'fis3-hook-components@1.0.2', null ]
+364 verbose cache add spec fis3-hook-components@1.0.2
+365 silly cache add parsed spec Result {
+365 silly cache add   raw: 'fis3-hook-components@1.0.2',
+365 silly cache add   scope: null,
+365 silly cache add   name: 'fis3-hook-components',
+365 silly cache add   rawSpec: '1.0.2',
+365 silly cache add   spec: '1.0.2',
+365 silly cache add   type: 'version' }
+366 silly addNamed fis3-hook-components@1.0.2
+367 verbose addNamed "1.0.2" is a plain semver version for fis3-hook-components
+368 silly mapToRegistry name fis3-hook-components
+369 silly mapToRegistry using default registry
+370 silly mapToRegistry registry https://registry.npmjs.org/
+371 silly mapToRegistry uri https://registry.npmjs.org/fis3-hook-components
+372 verbose addNameVersion registry:https://registry.npmjs.org/fis3-hook-components not in flight; fetching
+373 silly cache add args [ 'fis3-packager-map@1.0.9', null ]
+374 verbose cache add spec fis3-packager-map@1.0.9
+375 silly cache add parsed spec Result {
+375 silly cache add   raw: 'fis3-packager-map@1.0.9',
+375 silly cache add   scope: null,
+375 silly cache add   name: 'fis3-packager-map',
+375 silly cache add   rawSpec: '1.0.9',
+375 silly cache add   spec: '1.0.9',
+375 silly cache add   type: 'version' }
+376 silly addNamed fis3-packager-map@1.0.9
+377 verbose addNamed "1.0.9" is a plain semver version for fis3-packager-map
+378 silly mapToRegistry name fis3-packager-map
+379 silly mapToRegistry using default registry
+380 silly mapToRegistry registry https://registry.npmjs.org/
+381 silly mapToRegistry uri https://registry.npmjs.org/fis3-packager-map
+382 verbose addNameVersion registry:https://registry.npmjs.org/fis3-packager-map not in flight; fetching
+383 silly cache add args [ 'fis3-errors@*', null ]
+384 verbose cache add spec fis3-errors@*
+385 silly cache add parsed spec Result {
+385 silly cache add   raw: 'fis3-errors@*',
+385 silly cache add   scope: null,
+385 silly cache add   name: 'fis3-errors',
+385 silly cache add   rawSpec: '*',
+385 silly cache add   spec: '*',
+385 silly cache add   type: 'range' }
+386 silly addNamed fis3-errors@*
+387 verbose addNamed "*" is a valid semver range for fis3-errors
+388 silly addNameRange { name: 'fis3-errors', range: '*', hasData: false }
+389 silly mapToRegistry name fis3-errors
+390 silly mapToRegistry using default registry
+391 silly mapToRegistry registry https://registry.npmjs.org/
+392 silly mapToRegistry uri https://registry.npmjs.org/fis3-errors
+393 verbose addNameRange registry:https://registry.npmjs.org/fis3-errors not in flight; fetching
+394 silly cache add args [ 'colors@0.6.2', null ]
+395 verbose cache add spec colors@0.6.2
+396 silly cache add parsed spec Result {
+396 silly cache add   raw: 'colors@0.6.2',
+396 silly cache add   scope: null,
+396 silly cache add   name: 'colors',
+396 silly cache add   rawSpec: '0.6.2',
+396 silly cache add   spec: '0.6.2',
+396 silly cache add   type: 'version' }
+397 silly addNamed colors@0.6.2
+398 verbose addNamed "0.6.2" is a plain semver version for colors
+399 silly mapToRegistry name colors
+400 silly mapToRegistry using default registry
+401 silly mapToRegistry registry https://registry.npmjs.org/
+402 silly mapToRegistry uri https://registry.npmjs.org/colors
+403 verbose addNameVersion registry:https://registry.npmjs.org/colors not in flight; fetching
+404 silly cache add args [ 'commander@1.3.2', null ]
+405 verbose cache add spec commander@1.3.2
+406 silly cache add parsed spec Result {
+406 silly cache add   raw: 'commander@1.3.2',
+406 silly cache add   scope: null,
+406 silly cache add   name: 'commander',
+406 silly cache add   rawSpec: '1.3.2',
+406 silly cache add   spec: '1.3.2',
+406 silly cache add   type: 'version' }
+407 silly addNamed commander@1.3.2
+408 verbose addNamed "1.3.2" is a plain semver version for commander
+409 silly mapToRegistry name commander
+410 silly mapToRegistry using default registry
+411 silly mapToRegistry registry https://registry.npmjs.org/
+412 silly mapToRegistry uri https://registry.npmjs.org/commander
+413 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+414 verbose request uri https://registry.npmjs.org/iconv-lite
+415 verbose request no auth needed
+416 info attempt registry request try #1 at 20:58:35
+417 verbose request using bearer token for auth
+418 verbose etag "7JU5TDM03F9P69IYX7U2EYS0M"
+419 http request GET https://registry.npmjs.org/iconv-lite
+420 verbose request uri https://registry.npmjs.org/lodash
+421 verbose request no auth needed
+422 info attempt registry request try #1 at 20:58:35
+423 verbose request using bearer token for auth
+424 verbose etag "AOE4PPFDEKCGFNH1UWBB95TAV"
+425 http request GET https://registry.npmjs.org/lodash
+426 verbose request uri https://registry.npmjs.org/liftoff
+427 verbose request no auth needed
+428 info attempt registry request try #1 at 20:58:35
+429 verbose request using bearer token for auth
+430 verbose etag "CPDDPB3Q6UH1KYQ9NPKLQDKZB"
+431 http request GET https://registry.npmjs.org/liftoff
+432 verbose request uri https://registry.npmjs.org/minimatch
+433 verbose request no auth needed
+434 info attempt registry request try #1 at 20:58:35
+435 verbose request using bearer token for auth
+436 verbose etag "4LFAQ3IFUTR8Q3IE1RPPWNQGA"
+437 http request GET https://registry.npmjs.org/minimatch
+438 verbose request uri https://registry.npmjs.org/minimist
+439 verbose request no auth needed
+440 info attempt registry request try #1 at 20:58:35
+441 verbose request using bearer token for auth
+442 verbose etag "EQHHJ88OJ3U8YH3II1EENI1FZ"
+443 http request GET https://registry.npmjs.org/minimist
+444 verbose request uri https://registry.npmjs.org/resolve
+445 verbose request no auth needed
+446 info attempt registry request try #1 at 20:58:35
+447 verbose request using bearer token for auth
+448 verbose etag "BWVXMZUAQCU14H6XAB7M6UTXF"
+449 http request GET https://registry.npmjs.org/resolve
+450 verbose request uri https://registry.npmjs.org/tar
+451 verbose request no auth needed
+452 info attempt registry request try #1 at 20:58:35
+453 verbose request using bearer token for auth
+454 verbose etag "B65086JAZ6MBUGJ3KXVETYYSK"
+455 http request GET https://registry.npmjs.org/tar
+456 verbose request uri https://registry.npmjs.org/fis-command-install
+457 verbose request no auth needed
+458 info attempt registry request try #1 at 20:58:35
+459 verbose request using bearer token for auth
+460 verbose etag "8AZ2MP113DZ8L3RB7TOC7MMCO"
+461 http request GET https://registry.npmjs.org/fis-command-install
+462 verbose request uri https://registry.npmjs.org/fis-lolcat
+463 verbose request no auth needed
+464 info attempt registry request try #1 at 20:58:35
+465 verbose request using bearer token for auth
+466 verbose etag "6FDGGZRJXV0LQNTRLK1NVO98R"
+467 http request GET https://registry.npmjs.org/fis-lolcat
+468 verbose request uri https://registry.npmjs.org/fis-optimizer-clean-css
+469 verbose request no auth needed
+470 info attempt registry request try #1 at 20:58:35
+471 verbose request using bearer token for auth
+472 verbose etag "AMSN3HZLWF49MEZTZF7COQYNS"
+473 http request GET https://registry.npmjs.org/fis-optimizer-clean-css
+474 verbose request uri https://registry.npmjs.org/fis-optimizer-png-compressor
+475 verbose request no auth needed
+476 info attempt registry request try #1 at 20:58:35
+477 verbose request using bearer token for auth
+478 verbose etag "2DOUAOQ5EB14JEMBYD6TU7CYG"
+479 http request GET https://registry.npmjs.org/fis-optimizer-png-compressor
+480 verbose request uri https://registry.npmjs.org/fis-optimizer-uglify-js
+481 verbose request no auth needed
+482 info attempt registry request try #1 at 20:58:35
+483 verbose request using bearer token for auth
+484 verbose etag "DHC3TJYHC51FM9R5VUZQFFN7D"
+485 http request GET https://registry.npmjs.org/fis-optimizer-uglify-js
+486 verbose request uri https://registry.npmjs.org/fis-spriter-csssprites
+487 verbose request no auth needed
+488 info attempt registry request try #1 at 20:58:35
+489 verbose request using bearer token for auth
+490 verbose etag "DHCPTSSI0X8VNO3KX6WBQ7T93"
+491 http request GET https://registry.npmjs.org/fis-spriter-csssprites
+492 verbose request uri https://registry.npmjs.org/fis3-command-init
+493 verbose request no auth needed
+494 info attempt registry request try #1 at 20:58:35
+495 verbose request using bearer token for auth
+496 verbose etag "9P9AHWSZPWIEGFZPHYXYT5DJ"
+497 http request GET https://registry.npmjs.org/fis3-command-init
+498 verbose request uri https://registry.npmjs.org/fis3-command-inspect
+499 verbose request no auth needed
+500 info attempt registry request try #1 at 20:58:35
+501 verbose request using bearer token for auth
+502 verbose etag "4FP4J4J2VS4QFVQBD9M0Q6003"
+503 http request GET https://registry.npmjs.org/fis3-command-inspect
+504 verbose request uri https://registry.npmjs.org/fis3-command-release
+505 verbose request no auth needed
+506 info attempt registry request try #1 at 20:58:35
+507 verbose request using bearer token for auth
+508 verbose etag "71LYN8QUOWKS4LY5CY5UFPJL6"
+509 http request GET https://registry.npmjs.org/fis3-command-release
+510 verbose request uri https://registry.npmjs.org/fis3-server-node
+511 verbose request no auth needed
+512 info attempt registry request try #1 at 20:58:35
+513 verbose request using bearer token for auth
+514 verbose etag "3PMNNYAG45VGL6Y0VQCC0TLG3"
+515 http request GET https://registry.npmjs.org/fis3-server-node
+516 verbose request uri https://registry.npmjs.org/fis3-command-server
+517 verbose request no auth needed
+518 info attempt registry request try #1 at 20:58:35
+519 verbose request using bearer token for auth
+520 verbose etag "BYHOQJ4VA7GUNWJL7LBUR1JSO"
+521 http request GET https://registry.npmjs.org/fis3-command-server
+522 verbose request uri https://registry.npmjs.org/fis3-deploy-local-deliver
+523 verbose request no auth needed
+524 info attempt registry request try #1 at 20:58:35
+525 verbose request using bearer token for auth
+526 verbose etag "4M3AZH5JR6A6KINHAQSZGBI1J"
+527 http request GET https://registry.npmjs.org/fis3-deploy-local-deliver
+528 verbose request uri https://registry.npmjs.org/fis3-deploy-encoding
+529 verbose request no auth needed
+530 info attempt registry request try #1 at 20:58:35
+531 verbose request using bearer token for auth
+532 verbose etag "T4BIDQTI00UXPCC9JAVPP9PU"
+533 http request GET https://registry.npmjs.org/fis3-deploy-encoding
+534 verbose request uri https://registry.npmjs.org/fis3-deploy-http-push
+535 verbose request no auth needed
+536 info attempt registry request try #1 at 20:58:35
+537 verbose request using bearer token for auth
+538 verbose etag "BS51Y9P9ZKUSLKSSZ4HILVHVO"
+539 http request GET https://registry.npmjs.org/fis3-deploy-http-push
+540 verbose request uri https://registry.npmjs.org/fis3-errors
+541 verbose request no auth needed
+542 info attempt registry request try #1 at 20:58:35
+543 verbose request using bearer token for auth
+544 verbose etag "8JJTRK72WDTJXURQPFXZQXBZ4"
+545 http request GET https://registry.npmjs.org/fis3-errors
+546 verbose request uri https://registry.npmjs.org/fis3-hook-components
+547 verbose request no auth needed
+548 info attempt registry request try #1 at 20:58:35
+549 verbose request using bearer token for auth
+550 verbose etag "3SJ0KLPJB3DXPJK83A8XGT4LB"
+551 http request GET https://registry.npmjs.org/fis3-hook-components
+552 verbose request uri https://registry.npmjs.org/fis3-packager-map
+553 verbose request no auth needed
+554 info attempt registry request try #1 at 20:58:35
+555 verbose request using bearer token for auth
+556 verbose etag "9TQQQ4G3AHFTCUC7ZDJBEHIOZ"
+557 http request GET https://registry.npmjs.org/fis3-packager-map
+558 verbose request uri https://registry.npmjs.org/commander
+559 verbose request no auth needed
+560 info attempt registry request try #1 at 20:58:35
+561 verbose request using bearer token for auth
+562 verbose etag "DAGK5UR8X9R59UHPZBHT83QM2"
+563 http request GET https://registry.npmjs.org/commander
+564 verbose request uri https://registry.npmjs.org/colors
+565 verbose request no auth needed
+566 info attempt registry request try #1 at 20:58:35
+567 verbose request using bearer token for auth
+568 verbose etag "C05T9PO09HOM72WVMFD3O1GNZ"
+569 http request GET https://registry.npmjs.org/colors
+570 http 304 https://registry.npmjs.org/minimatch
+571 verbose headers { 'cache-control': 'max-age=300',
+571 verbose headers   'accept-ranges': 'bytes',
+571 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+571 verbose headers   via: '1.1 varnish',
+571 verbose headers   connection: 'keep-alive',
+571 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+571 verbose headers   'x-cache': 'MISS',
+571 verbose headers   'x-cache-hits': '0',
+571 verbose headers   'x-timer': 'S1451393916.378064,VS0,VE159' }
+572 silly get cb [ 304,
+572 silly get   { 'cache-control': 'max-age=300',
+572 silly get     'accept-ranges': 'bytes',
+572 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+572 silly get     via: '1.1 varnish',
+572 silly get     connection: 'keep-alive',
+572 silly get     'x-served-by': 'cache-lhr6322-LHR',
+572 silly get     'x-cache': 'MISS',
+572 silly get     'x-cache-hits': '0',
+572 silly get     'x-timer': 'S1451393916.378064,VS0,VE159' } ]
+573 verbose etag https://registry.npmjs.org/minimatch from cache
+574 verbose get saving minimatch to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\minimatch\.cache.json
+575 silly cache afterAdd minimatch@2.0.4
+576 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\minimatch\2.0.4\package\package.json not in flight; writing
+577 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\minimatch\2.0.4\package\package.json written
+578 http 304 https://registry.npmjs.org/fis3-deploy-local-deliver
+579 verbose headers { 'cache-control': 'max-age=300',
+579 verbose headers   'accept-ranges': 'bytes',
+579 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+579 verbose headers   via: '1.1 varnish',
+579 verbose headers   connection: 'keep-alive',
+579 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+579 verbose headers   'x-cache': 'MISS',
+579 verbose headers   'x-cache-hits': '0',
+579 verbose headers   'x-timer': 'S1451393916.385491,VS0,VE171' }
+580 silly get cb [ 304,
+580 silly get   { 'cache-control': 'max-age=300',
+580 silly get     'accept-ranges': 'bytes',
+580 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+580 silly get     via: '1.1 varnish',
+580 silly get     connection: 'keep-alive',
+580 silly get     'x-served-by': 'cache-lhr6324-LHR',
+580 silly get     'x-cache': 'MISS',
+580 silly get     'x-cache-hits': '0',
+580 silly get     'x-timer': 'S1451393916.385491,VS0,VE171' } ]
+581 verbose etag https://registry.npmjs.org/fis3-deploy-local-deliver from cache
+582 verbose get saving fis3-deploy-local-deliver to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-deploy-local-deliver\.cache.json
+583 http 304 https://registry.npmjs.org/minimist
+584 verbose headers { 'cache-control': 'max-age=300',
+584 verbose headers   'accept-ranges': 'bytes',
+584 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+584 verbose headers   via: '1.1 varnish',
+584 verbose headers   connection: 'keep-alive',
+584 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+584 verbose headers   'x-cache': 'MISS',
+584 verbose headers   'x-cache-hits': '0',
+584 verbose headers   'x-timer': 'S1451393916.427058,VS0,VE87' }
+585 silly get cb [ 304,
+585 silly get   { 'cache-control': 'max-age=300',
+585 silly get     'accept-ranges': 'bytes',
+585 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+585 silly get     via: '1.1 varnish',
+585 silly get     connection: 'keep-alive',
+585 silly get     'x-served-by': 'cache-lhr6327-LHR',
+585 silly get     'x-cache': 'MISS',
+585 silly get     'x-cache-hits': '0',
+585 silly get     'x-timer': 'S1451393916.427058,VS0,VE87' } ]
+586 verbose etag https://registry.npmjs.org/minimist from cache
+587 verbose get saving minimist to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\minimist\.cache.json
+588 silly cache afterAdd fis3-deploy-local-deliver@1.0.0
+589 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-deploy-local-deliver\1.0.0\package\package.json not in flight; writing
+590 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-deploy-local-deliver\1.0.0\package\package.json written
+591 silly cache afterAdd minimist@1.1.1
+592 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\minimist\1.1.1\package\package.json not in flight; writing
+593 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\minimist\1.1.1\package\package.json written
+594 http 304 https://registry.npmjs.org/glob
+595 verbose headers { 'cache-control': 'max-age=300',
+595 verbose headers   'accept-ranges': 'bytes',
+595 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+595 verbose headers   via: '1.1 varnish',
+595 verbose headers   connection: 'keep-alive',
+595 verbose headers   'x-served-by': 'cache-lhr6334-LHR',
+595 verbose headers   'x-cache': 'MISS',
+595 verbose headers   'x-cache-hits': '0',
+595 verbose headers   'x-timer': 'S1451393916.318485,VS0,VE350' }
+596 silly get cb [ 304,
+596 silly get   { 'cache-control': 'max-age=300',
+596 silly get     'accept-ranges': 'bytes',
+596 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+596 silly get     via: '1.1 varnish',
+596 silly get     connection: 'keep-alive',
+596 silly get     'x-served-by': 'cache-lhr6334-LHR',
+596 silly get     'x-cache': 'MISS',
+596 silly get     'x-cache-hits': '0',
+596 silly get     'x-timer': 'S1451393916.318485,VS0,VE350' } ]
+597 verbose etag https://registry.npmjs.org/glob from cache
+598 verbose get saving glob to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\glob\.cache.json
+599 silly cache afterAdd glob@5.0.3
+600 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\glob\5.0.3\package\package.json not in flight; writing
+601 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\glob\5.0.3\package\package.json written
+602 http 304 https://registry.npmjs.org/fis-optimizer-clean-css
+603 verbose headers { 'cache-control': 'max-age=300',
+603 verbose headers   'accept-ranges': 'bytes',
+603 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+603 verbose headers   via: '1.1 varnish',
+603 verbose headers   connection: 'keep-alive',
+603 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+603 verbose headers   'x-cache': 'MISS',
+603 verbose headers   'x-cache-hits': '0',
+603 verbose headers   'x-timer': 'S1451393916.379493,VS0,VE367' }
+604 silly get cb [ 304,
+604 silly get   { 'cache-control': 'max-age=300',
+604 silly get     'accept-ranges': 'bytes',
+604 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+604 silly get     via: '1.1 varnish',
+604 silly get     connection: 'keep-alive',
+604 silly get     'x-served-by': 'cache-lhr6324-LHR',
+604 silly get     'x-cache': 'MISS',
+604 silly get     'x-cache-hits': '0',
+604 silly get     'x-timer': 'S1451393916.379493,VS0,VE367' } ]
+605 verbose etag https://registry.npmjs.org/fis-optimizer-clean-css from cache
+606 verbose get saving fis-optimizer-clean-css to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis-optimizer-clean-css\.cache.json
+607 http 304 https://registry.npmjs.org/fis3-errors
+608 verbose headers { 'cache-control': 'max-age=300',
+608 verbose headers   'accept-ranges': 'bytes',
+608 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+608 verbose headers   via: '1.1 varnish',
+608 verbose headers   connection: 'keep-alive',
+608 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+608 verbose headers   'x-cache': 'MISS',
+608 verbose headers   'x-cache-hits': '0',
+608 verbose headers   'x-timer': 'S1451393916.384565,VS0,VE366' }
+609 silly get cb [ 304,
+609 silly get   { 'cache-control': 'max-age=300',
+609 silly get     'accept-ranges': 'bytes',
+609 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+609 silly get     via: '1.1 varnish',
+609 silly get     connection: 'keep-alive',
+609 silly get     'x-served-by': 'cache-lhr6327-LHR',
+609 silly get     'x-cache': 'MISS',
+609 silly get     'x-cache-hits': '0',
+609 silly get     'x-timer': 'S1451393916.384565,VS0,VE366' } ]
+610 verbose etag https://registry.npmjs.org/fis3-errors from cache
+611 verbose get saving fis3-errors to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-errors\.cache.json
+612 http 304 https://registry.npmjs.org/iconv-lite
+613 verbose headers { 'cache-control': 'max-age=300',
+613 verbose headers   'accept-ranges': 'bytes',
+613 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+613 verbose headers   via: '1.1 varnish',
+613 verbose headers   connection: 'keep-alive',
+613 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+613 verbose headers   'x-cache': 'MISS',
+613 verbose headers   'x-cache-hits': '0',
+613 verbose headers   'x-timer': 'S1451393916.379660,VS0,VE371' }
+614 silly get cb [ 304,
+614 silly get   { 'cache-control': 'max-age=300',
+614 silly get     'accept-ranges': 'bytes',
+614 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+614 silly get     via: '1.1 varnish',
+614 silly get     connection: 'keep-alive',
+614 silly get     'x-served-by': 'cache-lhr6328-LHR',
+614 silly get     'x-cache': 'MISS',
+614 silly get     'x-cache-hits': '0',
+614 silly get     'x-timer': 'S1451393916.379660,VS0,VE371' } ]
+615 verbose etag https://registry.npmjs.org/iconv-lite from cache
+616 verbose get saving iconv-lite to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\iconv-lite\.cache.json
+617 silly cache afterAdd fis-optimizer-clean-css@0.0.9
+618 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-optimizer-clean-css\0.0.9\package\package.json not in flight; writing
+619 silly addNameRange number 2 { name: 'fis3-errors', range: '*', hasData: true }
+620 silly addNameRange versions [ 'fis3-errors', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+621 silly addNamed fis3-errors@0.0.4
+622 verbose addNamed "0.0.4" is a plain semver version for fis3-errors
+623 silly cache afterAdd fis3-errors@0.0.4
+624 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-errors\0.0.4\package\package.json not in flight; writing
+625 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-optimizer-clean-css\0.0.9\package\package.json written
+626 silly cache afterAdd iconv-lite@0.2.10
+627 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\iconv-lite\0.2.10\package\package.json not in flight; writing
+628 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-errors\0.0.4\package\package.json written
+629 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\iconv-lite\0.2.10\package\package.json written
+630 http 304 https://registry.npmjs.org/fis-optimizer-uglify-js
+631 verbose headers { 'cache-control': 'max-age=300',
+631 verbose headers   'accept-ranges': 'bytes',
+631 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+631 verbose headers   via: '1.1 varnish',
+631 verbose headers   connection: 'keep-alive',
+631 verbose headers   'x-served-by': 'cache-lhr6335-LHR',
+631 verbose headers   'x-cache': 'MISS',
+631 verbose headers   'x-cache-hits': '0',
+631 verbose headers   'x-timer': 'S1451393916.422775,VS0,VE346' }
+632 silly get cb [ 304,
+632 silly get   { 'cache-control': 'max-age=300',
+632 silly get     'accept-ranges': 'bytes',
+632 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+632 silly get     via: '1.1 varnish',
+632 silly get     connection: 'keep-alive',
+632 silly get     'x-served-by': 'cache-lhr6335-LHR',
+632 silly get     'x-cache': 'MISS',
+632 silly get     'x-cache-hits': '0',
+632 silly get     'x-timer': 'S1451393916.422775,VS0,VE346' } ]
+633 verbose etag https://registry.npmjs.org/fis-optimizer-uglify-js from cache
+634 verbose get saving fis-optimizer-uglify-js to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis-optimizer-uglify-js\.cache.json
+635 silly cache afterAdd fis-optimizer-uglify-js@0.1.10
+636 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-optimizer-uglify-js\0.1.10\package\package.json not in flight; writing
+637 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-optimizer-uglify-js\0.1.10\package\package.json written
+638 http 304 https://registry.npmjs.org/tar
+639 verbose headers { 'cache-control': 'max-age=300',
+639 verbose headers   'accept-ranges': 'bytes',
+639 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+639 verbose headers   via: '1.1 varnish',
+639 verbose headers   connection: 'keep-alive',
+639 verbose headers   'x-served-by': 'cache-lhr6333-LHR',
+639 verbose headers   'x-cache': 'MISS',
+639 verbose headers   'x-cache-hits': '0',
+639 verbose headers   'x-timer': 'S1451393916.425073,VS0,VE367' }
+640 silly get cb [ 304,
+640 silly get   { 'cache-control': 'max-age=300',
+640 silly get     'accept-ranges': 'bytes',
+640 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+640 silly get     via: '1.1 varnish',
+640 silly get     connection: 'keep-alive',
+640 silly get     'x-served-by': 'cache-lhr6333-LHR',
+640 silly get     'x-cache': 'MISS',
+640 silly get     'x-cache-hits': '0',
+640 silly get     'x-timer': 'S1451393916.425073,VS0,VE367' } ]
+641 verbose etag https://registry.npmjs.org/tar from cache
+642 verbose get saving tar to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\tar\.cache.json
+643 silly cache afterAdd tar@0.1.17
+644 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\tar\0.1.17\package\package.json not in flight; writing
+645 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\tar\0.1.17\package\package.json written
+646 http 304 https://registry.npmjs.org/fis3-command-server
+647 verbose headers { 'cache-control': 'max-age=300',
+647 verbose headers   'accept-ranges': 'bytes',
+647 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+647 verbose headers   via: '1.1 varnish',
+647 verbose headers   connection: 'keep-alive',
+647 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+647 verbose headers   'x-cache': 'MISS',
+647 verbose headers   'x-cache-hits': '0',
+647 verbose headers   'x-timer': 'S1451393916.469538,VS0,VE346' }
+648 silly get cb [ 304,
+648 silly get   { 'cache-control': 'max-age=300',
+648 silly get     'accept-ranges': 'bytes',
+648 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+648 silly get     via: '1.1 varnish',
+648 silly get     connection: 'keep-alive',
+648 silly get     'x-served-by': 'cache-lhr6322-LHR',
+648 silly get     'x-cache': 'MISS',
+648 silly get     'x-cache-hits': '0',
+648 silly get     'x-timer': 'S1451393916.469538,VS0,VE346' } ]
+649 verbose etag https://registry.npmjs.org/fis3-command-server from cache
+650 verbose get saving fis3-command-server to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-command-server\.cache.json
+651 silly cache afterAdd fis3-command-server@0.0.8
+652 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-command-server\0.0.8\package\package.json not in flight; writing
+653 http 304 https://registry.npmjs.org/fis3-command-release
+654 verbose headers { 'cache-control': 'max-age=300',
+654 verbose headers   'accept-ranges': 'bytes',
+654 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+654 verbose headers   via: '1.1 varnish',
+654 verbose headers   connection: 'keep-alive',
+654 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+654 verbose headers   'x-cache': 'MISS',
+654 verbose headers   'x-cache-hits': '0',
+654 verbose headers   'x-timer': 'S1451393916.474313,VS0,VE346' }
+655 silly get cb [ 304,
+655 silly get   { 'cache-control': 'max-age=300',
+655 silly get     'accept-ranges': 'bytes',
+655 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+655 silly get     via: '1.1 varnish',
+655 silly get     connection: 'keep-alive',
+655 silly get     'x-served-by': 'cache-lhr6322-LHR',
+655 silly get     'x-cache': 'MISS',
+655 silly get     'x-cache-hits': '0',
+655 silly get     'x-timer': 'S1451393916.474313,VS0,VE346' } ]
+656 verbose etag https://registry.npmjs.org/fis3-command-release from cache
+657 verbose get saving fis3-command-release to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-command-release\.cache.json
+658 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-command-server\0.0.8\package\package.json written
+659 silly cache afterAdd fis3-command-release@1.2.9
+660 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-command-release\1.2.9\package\package.json not in flight; writing
+661 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-command-release\1.2.9\package\package.json written
+662 http 304 https://registry.npmjs.org/liftoff
+663 verbose headers { 'cache-control': 'max-age=300',
+663 verbose headers   'accept-ranges': 'bytes',
+663 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+663 verbose headers   via: '1.1 varnish',
+663 verbose headers   connection: 'keep-alive',
+663 verbose headers   'x-served-by': 'cache-lhr6329-LHR',
+663 verbose headers   'x-cache': 'MISS',
+663 verbose headers   'x-cache-hits': '0',
+663 verbose headers   'x-timer': 'S1451393916.377635,VS0,VE611' }
+664 silly get cb [ 304,
+664 silly get   { 'cache-control': 'max-age=300',
+664 silly get     'accept-ranges': 'bytes',
+664 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+664 silly get     via: '1.1 varnish',
+664 silly get     connection: 'keep-alive',
+664 silly get     'x-served-by': 'cache-lhr6329-LHR',
+664 silly get     'x-cache': 'MISS',
+664 silly get     'x-cache-hits': '0',
+664 silly get     'x-timer': 'S1451393916.377635,VS0,VE611' } ]
+665 verbose etag https://registry.npmjs.org/liftoff from cache
+666 verbose get saving liftoff to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\liftoff\.cache.json
+667 silly cache afterAdd liftoff@2.0.2
+668 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\liftoff\2.0.2\package\package.json not in flight; writing
+669 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\liftoff\2.0.2\package\package.json written
+670 http 304 https://registry.npmjs.org/fis3-deploy-http-push
+671 verbose headers { 'cache-control': 'max-age=300',
+671 verbose headers   'accept-ranges': 'bytes',
+671 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+671 verbose headers   via: '1.1 varnish',
+671 verbose headers   connection: 'keep-alive',
+671 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+671 verbose headers   'x-cache': 'MISS',
+671 verbose headers   'x-cache-hits': '0',
+671 verbose headers   'x-timer': 'S1451393916.379622,VS0,VE673' }
+672 silly get cb [ 304,
+672 silly get   { 'cache-control': 'max-age=300',
+672 silly get     'accept-ranges': 'bytes',
+672 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+672 silly get     via: '1.1 varnish',
+672 silly get     connection: 'keep-alive',
+672 silly get     'x-served-by': 'cache-lhr6322-LHR',
+672 silly get     'x-cache': 'MISS',
+672 silly get     'x-cache-hits': '0',
+672 silly get     'x-timer': 'S1451393916.379622,VS0,VE673' } ]
+673 verbose etag https://registry.npmjs.org/fis3-deploy-http-push from cache
+674 verbose get saving fis3-deploy-http-push to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-deploy-http-push\.cache.json
+675 silly cache afterAdd fis3-deploy-http-push@1.0.1
+676 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-deploy-http-push\1.0.1\package\package.json not in flight; writing
+677 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-deploy-http-push\1.0.1\package\package.json written
+678 http 304 https://registry.npmjs.org/fis3-server-node
+679 verbose headers { 'cache-control': 'max-age=300',
+679 verbose headers   'accept-ranges': 'bytes',
+679 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+679 verbose headers   via: '1.1 varnish',
+679 verbose headers   connection: 'keep-alive',
+679 verbose headers   'x-served-by': 'cache-lhr6321-LHR',
+679 verbose headers   'x-cache': 'MISS',
+679 verbose headers   'x-cache-hits': '0',
+679 verbose headers   'x-timer': 'S1451393916.379492,VS0,VE693' }
+680 silly get cb [ 304,
+680 silly get   { 'cache-control': 'max-age=300',
+680 silly get     'accept-ranges': 'bytes',
+680 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+680 silly get     via: '1.1 varnish',
+680 silly get     connection: 'keep-alive',
+680 silly get     'x-served-by': 'cache-lhr6321-LHR',
+680 silly get     'x-cache': 'MISS',
+680 silly get     'x-cache-hits': '0',
+680 silly get     'x-timer': 'S1451393916.379492,VS0,VE693' } ]
+681 verbose etag https://registry.npmjs.org/fis3-server-node from cache
+682 verbose get saving fis3-server-node to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-server-node\.cache.json
+683 silly cache afterAdd fis3-server-node@0.0.6
+684 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-server-node\0.0.6\package\package.json not in flight; writing
+685 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-server-node\0.0.6\package\package.json written
+686 http 304 https://registry.npmjs.org/fis3-deploy-encoding
+687 verbose headers { 'cache-control': 'max-age=300',
+687 verbose headers   'accept-ranges': 'bytes',
+687 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+687 verbose headers   via: '1.1 varnish',
+687 verbose headers   connection: 'keep-alive',
+687 verbose headers   'x-served-by': 'cache-lhr6334-LHR',
+687 verbose headers   'x-cache': 'MISS',
+687 verbose headers   'x-cache-hits': '0',
+687 verbose headers   'x-timer': 'S1451393916.385280,VS0,VE709' }
+688 silly get cb [ 304,
+688 silly get   { 'cache-control': 'max-age=300',
+688 silly get     'accept-ranges': 'bytes',
+688 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+688 silly get     via: '1.1 varnish',
+688 silly get     connection: 'keep-alive',
+688 silly get     'x-served-by': 'cache-lhr6334-LHR',
+688 silly get     'x-cache': 'MISS',
+688 silly get     'x-cache-hits': '0',
+688 silly get     'x-timer': 'S1451393916.385280,VS0,VE709' } ]
+689 verbose etag https://registry.npmjs.org/fis3-deploy-encoding from cache
+690 verbose get saving fis3-deploy-encoding to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-deploy-encoding\.cache.json
+691 http 304 https://registry.npmjs.org/fis3-packager-map
+692 verbose headers { 'cache-control': 'max-age=300',
+692 verbose headers   'accept-ranges': 'bytes',
+692 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+692 verbose headers   via: '1.1 varnish',
+692 verbose headers   connection: 'keep-alive',
+692 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+692 verbose headers   'x-cache': 'MISS',
+692 verbose headers   'x-cache-hits': '0',
+692 verbose headers   'x-timer': 'S1451393916.385999,VS0,VE709' }
+693 silly get cb [ 304,
+693 silly get   { 'cache-control': 'max-age=300',
+693 silly get     'accept-ranges': 'bytes',
+693 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+693 silly get     via: '1.1 varnish',
+693 silly get     connection: 'keep-alive',
+693 silly get     'x-served-by': 'cache-lhr6325-LHR',
+693 silly get     'x-cache': 'MISS',
+693 silly get     'x-cache-hits': '0',
+693 silly get     'x-timer': 'S1451393916.385999,VS0,VE709' } ]
+694 verbose etag https://registry.npmjs.org/fis3-packager-map from cache
+695 verbose get saving fis3-packager-map to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-packager-map\.cache.json
+696 http 304 https://registry.npmjs.org/resolve
+697 verbose headers { 'cache-control': 'max-age=300',
+697 verbose headers   'accept-ranges': 'bytes',
+697 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+697 verbose headers   via: '1.1 varnish',
+697 verbose headers   connection: 'keep-alive',
+697 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+697 verbose headers   'x-cache': 'MISS',
+697 verbose headers   'x-cache-hits': '0',
+697 verbose headers   'x-timer': 'S1451393916.385235,VS0,VE711' }
+698 silly get cb [ 304,
+698 silly get   { 'cache-control': 'max-age=300',
+698 silly get     'accept-ranges': 'bytes',
+698 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+698 silly get     via: '1.1 varnish',
+698 silly get     connection: 'keep-alive',
+698 silly get     'x-served-by': 'cache-lhr6328-LHR',
+698 silly get     'x-cache': 'MISS',
+698 silly get     'x-cache-hits': '0',
+698 silly get     'x-timer': 'S1451393916.385235,VS0,VE711' } ]
+699 verbose etag https://registry.npmjs.org/resolve from cache
+700 verbose get saving resolve to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\resolve\.cache.json
+701 http 304 https://registry.npmjs.org/colors
+702 verbose headers { 'cache-control': 'max-age=300',
+702 verbose headers   'accept-ranges': 'bytes',
+702 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+702 verbose headers   via: '1.1 varnish',
+702 verbose headers   connection: 'keep-alive',
+702 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+702 verbose headers   'x-cache': 'MISS',
+702 verbose headers   'x-cache-hits': '0',
+702 verbose headers   'x-timer': 'S1451393916.391359,VS0,VE708' }
+703 silly get cb [ 304,
+703 silly get   { 'cache-control': 'max-age=300',
+703 silly get     'accept-ranges': 'bytes',
+703 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+703 silly get     via: '1.1 varnish',
+703 silly get     connection: 'keep-alive',
+703 silly get     'x-served-by': 'cache-lhr6322-LHR',
+703 silly get     'x-cache': 'MISS',
+703 silly get     'x-cache-hits': '0',
+703 silly get     'x-timer': 'S1451393916.391359,VS0,VE708' } ]
+704 verbose etag https://registry.npmjs.org/colors from cache
+705 verbose get saving colors to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\colors\.cache.json
+706 silly cache afterAdd fis3-packager-map@1.0.9
+707 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-packager-map\1.0.9\package\package.json not in flight; writing
+708 silly cache afterAdd resolve@1.1.6
+709 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\resolve\1.1.6\package\package.json not in flight; writing
+710 http 304 https://registry.npmjs.org/fis3-command-inspect
+711 verbose headers { 'cache-control': 'max-age=300',
+711 verbose headers   'accept-ranges': 'bytes',
+711 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+711 verbose headers   via: '1.1 varnish',
+711 verbose headers   connection: 'keep-alive',
+711 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+711 verbose headers   'x-cache': 'MISS',
+711 verbose headers   'x-cache-hits': '0',
+711 verbose headers   'x-timer': 'S1451393916.379989,VS0,VE724' }
+712 silly get cb [ 304,
+712 silly get   { 'cache-control': 'max-age=300',
+712 silly get     'accept-ranges': 'bytes',
+712 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+712 silly get     via: '1.1 varnish',
+712 silly get     connection: 'keep-alive',
+712 silly get     'x-served-by': 'cache-lhr6327-LHR',
+712 silly get     'x-cache': 'MISS',
+712 silly get     'x-cache-hits': '0',
+712 silly get     'x-timer': 'S1451393916.379989,VS0,VE724' } ]
+713 verbose etag https://registry.npmjs.org/fis3-command-inspect from cache
+714 verbose get saving fis3-command-inspect to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-command-inspect\.cache.json
+715 http 304 https://registry.npmjs.org/fis-optimizer-png-compressor
+716 verbose headers { 'cache-control': 'max-age=300',
+716 verbose headers   'accept-ranges': 'bytes',
+716 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+716 verbose headers   via: '1.1 varnish',
+716 verbose headers   connection: 'keep-alive',
+716 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+716 verbose headers   'x-cache': 'MISS',
+716 verbose headers   'x-cache-hits': '0',
+716 verbose headers   'x-timer': 'S1451393916.382227,VS0,VE724' }
+717 silly get cb [ 304,
+717 silly get   { 'cache-control': 'max-age=300',
+717 silly get     'accept-ranges': 'bytes',
+717 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+717 silly get     via: '1.1 varnish',
+717 silly get     connection: 'keep-alive',
+717 silly get     'x-served-by': 'cache-lhr6322-LHR',
+717 silly get     'x-cache': 'MISS',
+717 silly get     'x-cache-hits': '0',
+717 silly get     'x-timer': 'S1451393916.382227,VS0,VE724' } ]
+718 verbose etag https://registry.npmjs.org/fis-optimizer-png-compressor from cache
+719 verbose get saving fis-optimizer-png-compressor to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis-optimizer-png-compressor\.cache.json
+720 silly cache afterAdd fis3-deploy-encoding@1.0.0
+721 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-deploy-encoding\1.0.0\package\package.json not in flight; writing
+722 silly cache afterAdd colors@0.6.2
+723 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\colors\0.6.2\package\package.json not in flight; writing
+724 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-packager-map\1.0.9\package\package.json written
+725 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-deploy-encoding\1.0.0\package\package.json written
+726 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\resolve\1.1.6\package\package.json written
+727 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\colors\0.6.2\package\package.json written
+728 silly cache afterAdd fis-optimizer-png-compressor@0.1.2
+729 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-optimizer-png-compressor\0.1.2\package\package.json not in flight; writing
+730 silly cache afterAdd fis3-command-inspect@1.0.3
+731 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-command-inspect\1.0.3\package\package.json not in flight; writing
+732 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-optimizer-png-compressor\0.1.2\package\package.json written
+733 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-command-inspect\1.0.3\package\package.json written
+734 http 304 https://registry.npmjs.org/fis3-hook-components
+735 verbose headers { 'cache-control': 'max-age=300',
+735 verbose headers   'accept-ranges': 'bytes',
+735 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+735 verbose headers   via: '1.1 varnish',
+735 verbose headers   connection: 'keep-alive',
+735 verbose headers   'x-served-by': 'cache-lhr6330-LHR',
+735 verbose headers   'x-cache': 'MISS',
+735 verbose headers   'x-cache-hits': '0',
+735 verbose headers   'x-timer': 'S1451393916.432818,VS0,VE690' }
+736 silly get cb [ 304,
+736 silly get   { 'cache-control': 'max-age=300',
+736 silly get     'accept-ranges': 'bytes',
+736 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+736 silly get     via: '1.1 varnish',
+736 silly get     connection: 'keep-alive',
+736 silly get     'x-served-by': 'cache-lhr6330-LHR',
+736 silly get     'x-cache': 'MISS',
+736 silly get     'x-cache-hits': '0',
+736 silly get     'x-timer': 'S1451393916.432818,VS0,VE690' } ]
+737 verbose etag https://registry.npmjs.org/fis3-hook-components from cache
+738 verbose get saving fis3-hook-components to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-hook-components\.cache.json
+739 silly cache afterAdd fis3-hook-components@1.0.2
+740 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-hook-components\1.0.2\package\package.json not in flight; writing
+741 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-hook-components\1.0.2\package\package.json written
+742 http 304 https://registry.npmjs.org/fis-spriter-csssprites
+743 verbose headers { 'cache-control': 'max-age=300',
+743 verbose headers   'accept-ranges': 'bytes',
+743 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+743 verbose headers   via: '1.1 varnish',
+743 verbose headers   connection: 'keep-alive',
+743 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+743 verbose headers   'x-cache': 'MISS',
+743 verbose headers   'x-cache-hits': '0',
+743 verbose headers   'x-timer': 'S1451393916.848458,VS0,VE693' }
+744 silly get cb [ 304,
+744 silly get   { 'cache-control': 'max-age=300',
+744 silly get     'accept-ranges': 'bytes',
+744 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+744 silly get     via: '1.1 varnish',
+744 silly get     connection: 'keep-alive',
+744 silly get     'x-served-by': 'cache-lhr6332-LHR',
+744 silly get     'x-cache': 'MISS',
+744 silly get     'x-cache-hits': '0',
+744 silly get     'x-timer': 'S1451393916.848458,VS0,VE693' } ]
+745 verbose etag https://registry.npmjs.org/fis-spriter-csssprites from cache
+746 verbose get saving fis-spriter-csssprites to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis-spriter-csssprites\.cache.json
+747 silly cache afterAdd fis-spriter-csssprites@0.3.6
+748 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-spriter-csssprites\0.3.6\package\package.json not in flight; writing
+749 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-spriter-csssprites\0.3.6\package\package.json written
+750 http 304 https://registry.npmjs.org/fis3-command-init
+751 verbose headers { 'cache-control': 'max-age=300',
+751 verbose headers   'accept-ranges': 'bytes',
+751 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+751 verbose headers   via: '1.1 varnish',
+751 verbose headers   connection: 'keep-alive',
+751 verbose headers   'x-served-by': 'cache-lhr6331-LHR',
+751 verbose headers   'x-cache': 'MISS',
+751 verbose headers   'x-cache-hits': '0',
+751 verbose headers   'x-timer': 'S1451393916.473124,VS0,VE634' }
+752 silly get cb [ 304,
+752 silly get   { 'cache-control': 'max-age=300',
+752 silly get     'accept-ranges': 'bytes',
+752 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+752 silly get     via: '1.1 varnish',
+752 silly get     connection: 'keep-alive',
+752 silly get     'x-served-by': 'cache-lhr6331-LHR',
+752 silly get     'x-cache': 'MISS',
+752 silly get     'x-cache-hits': '0',
+752 silly get     'x-timer': 'S1451393916.473124,VS0,VE634' } ]
+753 verbose etag https://registry.npmjs.org/fis3-command-init from cache
+754 verbose get saving fis3-command-init to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis3-command-init\.cache.json
+755 silly cache afterAdd fis3-command-init@1.0.11
+756 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-command-init\1.0.11\package\package.json not in flight; writing
+757 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis3-command-init\1.0.11\package\package.json written
+758 http 200 https://registry.npmjs.org/lodash
+759 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+759 verbose headers   etag: '"CGTYPVJRPPNJ9QH7BTBZ8IZ1I"',
+759 verbose headers   'content-type': 'application/json',
+759 verbose headers   'cache-control': 'max-age=300',
+759 verbose headers   'content-length': '113672',
+759 verbose headers   'accept-ranges': 'bytes',
+759 verbose headers   date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+759 verbose headers   via: '1.1 varnish',
+759 verbose headers   connection: 'keep-alive',
+759 verbose headers   'x-served-by': 'cache-lhr6330-LHR',
+759 verbose headers   'x-cache': 'MISS',
+759 verbose headers   'x-cache-hits': '0',
+759 verbose headers   'x-timer': 'S1451393916.471299,VS0,VE195',
+759 verbose headers   vary: 'Accept' }
+760 silly get cb [ 200,
+760 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+760 silly get     etag: '"CGTYPVJRPPNJ9QH7BTBZ8IZ1I"',
+760 silly get     'content-type': 'application/json',
+760 silly get     'cache-control': 'max-age=300',
+760 silly get     'content-length': '113672',
+760 silly get     'accept-ranges': 'bytes',
+760 silly get     date: 'Tue, 29 Dec 2015 12:58:36 GMT',
+760 silly get     via: '1.1 varnish',
+760 silly get     connection: 'keep-alive',
+760 silly get     'x-served-by': 'cache-lhr6330-LHR',
+760 silly get     'x-cache': 'MISS',
+760 silly get     'x-cache-hits': '0',
+760 silly get     'x-timer': 'S1451393916.471299,VS0,VE195',
+760 silly get     vary: 'Accept' } ]
+761 verbose get saving lodash to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+762 silly mapToRegistry name lodash
+763 silly mapToRegistry using default registry
+764 silly mapToRegistry registry https://registry.npmjs.org/
+765 silly mapToRegistry uri https://registry.npmjs.org/lodash
+766 verbose addRemoteTarball https://registry.npmjs.org/lodash/-/lodash-3.6.0.tgz not in flight; adding
+767 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash/-/lodash-3.6.0.tgz',
+767 verbose addRemoteTarball   '5266a8f49dd989be4f9f681b6f2a0c55285d0d9a' ]
+768 info retry fetch attempt 1 at 20:58:38
+769 info attempt registry request try #1 at 20:58:38
+770 http fetch GET https://registry.npmjs.org/lodash/-/lodash-3.6.0.tgz
+771 verbose request using bearer token for auth
+772 http 304 https://registry.npmjs.org/fis-lolcat
+773 verbose headers { 'cache-control': 'max-age=300',
+773 verbose headers   'accept-ranges': 'bytes',
+773 verbose headers   date: 'Tue, 29 Dec 2015 12:58:41 GMT',
+773 verbose headers   via: '1.1 varnish',
+773 verbose headers   connection: 'keep-alive',
+773 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+773 verbose headers   'x-cache': 'MISS',
+773 verbose headers   'x-cache-hits': '0',
+773 verbose headers   'x-timer': 'S1451393921.691586,VS0,VE84' }
+774 silly get cb [ 304,
+774 silly get   { 'cache-control': 'max-age=300',
+774 silly get     'accept-ranges': 'bytes',
+774 silly get     date: 'Tue, 29 Dec 2015 12:58:41 GMT',
+774 silly get     via: '1.1 varnish',
+774 silly get     connection: 'keep-alive',
+774 silly get     'x-served-by': 'cache-lhr6332-LHR',
+774 silly get     'x-cache': 'MISS',
+774 silly get     'x-cache-hits': '0',
+774 silly get     'x-timer': 'S1451393921.691586,VS0,VE84' } ]
+775 verbose etag https://registry.npmjs.org/fis-lolcat from cache
+776 verbose get saving fis-lolcat to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis-lolcat\.cache.json
+777 silly cache afterAdd fis-lolcat@1.0.1
+778 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-lolcat\1.0.1\package\package.json not in flight; writing
+779 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-lolcat\1.0.1\package\package.json written
+780 http fetch 200 https://registry.npmjs.org/lodash/-/lodash-3.6.0.tgz
+781 http 304 https://registry.npmjs.org/commander
+782 verbose headers { 'cache-control': 'max-age=300',
+782 verbose headers   'accept-ranges': 'bytes',
+782 verbose headers   date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+782 verbose headers   via: '1.1 varnish',
+782 verbose headers   connection: 'keep-alive',
+782 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+782 verbose headers   'x-cache': 'MISS',
+782 verbose headers   'x-cache-hits': '0',
+782 verbose headers   'x-timer': 'S1451393917.543881,VS0,VE86' }
+783 silly get cb [ 304,
+783 silly get   { 'cache-control': 'max-age=300',
+783 silly get     'accept-ranges': 'bytes',
+783 silly get     date: 'Tue, 29 Dec 2015 12:58:37 GMT',
+783 silly get     via: '1.1 varnish',
+783 silly get     connection: 'keep-alive',
+783 silly get     'x-served-by': 'cache-lhr6322-LHR',
+783 silly get     'x-cache': 'MISS',
+783 silly get     'x-cache-hits': '0',
+783 silly get     'x-timer': 'S1451393917.543881,VS0,VE86' } ]
+784 verbose etag https://registry.npmjs.org/commander from cache
+785 verbose get saving commander to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\commander\.cache.json
+786 silly cache afterAdd commander@1.3.2
+787 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\commander\1.3.2\package\package.json not in flight; writing
+788 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\commander\1.3.2\package\package.json written
+789 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 185.31.19.162:443
+790 info attempt registry request try #2 at 20:59:06
+791 verbose request using bearer token for auth
+792 verbose etag "8AZ2MP113DZ8L3RB7TOC7MMCO"
+793 http request GET https://registry.npmjs.org/fis-command-install
+794 http 200 https://registry.npmjs.org/fis-command-install
+795 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+795 verbose headers   etag: '"8E1JK7AQXL3BUCFEI30LQ3EJ8"',
+795 verbose headers   'content-type': 'application/json',
+795 verbose headers   'cache-control': 'max-age=300',
+795 verbose headers   'content-length': '58984',
+795 verbose headers   'accept-ranges': 'bytes',
+795 verbose headers   date: 'Tue, 29 Dec 2015 12:59:07 GMT',
+795 verbose headers   via: '1.1 varnish',
+795 verbose headers   connection: 'keep-alive',
+795 verbose headers   'x-served-by': 'cache-lhr6330-LHR',
+795 verbose headers   'x-cache': 'MISS',
+795 verbose headers   'x-cache-hits': '0',
+795 verbose headers   'x-timer': 'S1451393947.397735,VS0,VE324',
+795 verbose headers   vary: 'Accept' }
+796 silly get cb [ 200,
+796 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+796 silly get     etag: '"8E1JK7AQXL3BUCFEI30LQ3EJ8"',
+796 silly get     'content-type': 'application/json',
+796 silly get     'cache-control': 'max-age=300',
+796 silly get     'content-length': '58984',
+796 silly get     'accept-ranges': 'bytes',
+796 silly get     date: 'Tue, 29 Dec 2015 12:59:07 GMT',
+796 silly get     via: '1.1 varnish',
+796 silly get     connection: 'keep-alive',
+796 silly get     'x-served-by': 'cache-lhr6330-LHR',
+796 silly get     'x-cache': 'MISS',
+796 silly get     'x-cache-hits': '0',
+796 silly get     'x-timer': 'S1451393947.397735,VS0,VE324',
+796 silly get     vary: 'Accept' } ]
+797 verbose get saving fis-command-install to D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\registry.npmjs.org\fis-command-install\.cache.json
+798 silly mapToRegistry name fis-command-install
+799 silly mapToRegistry using default registry
+800 silly mapToRegistry registry https://registry.npmjs.org/
+801 silly mapToRegistry uri https://registry.npmjs.org/fis-command-install
+802 verbose addRemoteTarball https://registry.npmjs.org/fis-command-install/-/fis-command-install-0.2.6.tgz not in flight; adding
+803 verbose addRemoteTarball [ 'https://registry.npmjs.org/fis-command-install/-/fis-command-install-0.2.6.tgz',
+803 verbose addRemoteTarball   'a9efddee7989818fa31a30357d9d8b35b46fcd25' ]
+804 info retry fetch attempt 1 at 20:59:08
+805 info attempt registry request try #1 at 20:59:08
+806 http fetch GET https://registry.npmjs.org/fis-command-install/-/fis-command-install-0.2.6.tgz
+807 verbose request using bearer token for auth
+808 http fetch 200 https://registry.npmjs.org/fis-command-install/-/fis-command-install-0.2.6.tgz
+809 silly fetchAndShaCheck shasum a9efddee7989818fa31a30357d9d8b35b46fcd25
+810 verbose addTmpTarball D:\MyConfiguration\zy10746\AppData\Local\Temp\1\npm-12104-dc11c5c9\registry.npmjs.org\fis-command-install\-\fis-command-install-0.2.6.tgz not in flight; adding
+811 verbose addTmpTarball already have metadata; skipping unpack for fis-command-install@0.2.6
+812 silly cache afterAdd fis-command-install@0.2.6
+813 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-command-install\0.2.6\package\package.json not in flight; writing
+814 verbose afterAdd D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\fis-command-install\0.2.6\package\package.json written
+815 silly fetchAndShaCheck shasum 5266a8f49dd989be4f9f681b6f2a0c55285d0d9a
+816 verbose about to build D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+817 verbose unlock done using D:\MyConfiguration\zy10746\AppData\Roaming\npm-cache\_locks\fis3-e3fb25e763638c64.lock for D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+818 verbose stack Error: shasum check failed for D:\MyConfiguration\zy10746\AppData\Local\Temp\1\npm-12104-dc11c5c9\registry.npmjs.org\lodash\-\lodash-3.6.0.tgz
+818 verbose stack Expected: 5266a8f49dd989be4f9f681b6f2a0c55285d0d9a
+818 verbose stack Actual:   77f014c63b4ea86b5922d522de30a7fa8a6d02de
+818 verbose stack From:     https://registry.npmjs.org/lodash/-/lodash-3.6.0.tgz
+818 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+818 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+818 verbose stack     at emitNone (events.js:72:20)
+818 verbose stack     at ReadStream.emit (events.js:166:7)
+818 verbose stack     at endReadableNT (_stream_readable.js:903:12)
+818 verbose stack     at doNTCallback2 (node.js:439:9)
+818 verbose stack     at process._tickCallback (node.js:353:17)
+819 verbose cwd D:\zsource\seven
+820 error Windows_NT 6.1.7601
+821 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "-d" "fis3"
+822 error node v4.2.1
+823 error npm  v2.14.7
+824 error shasum check failed for D:\MyConfiguration\zy10746\AppData\Local\Temp\1\npm-12104-dc11c5c9\registry.npmjs.org\lodash\-\lodash-3.6.0.tgz
+824 error Expected: 5266a8f49dd989be4f9f681b6f2a0c55285d0d9a
+824 error Actual:   77f014c63b4ea86b5922d522de30a7fa8a6d02de
+824 error From:     https://registry.npmjs.org/lodash/-/lodash-3.6.0.tgz
+825 error If you need help, you may report this error at:
+825 error     <https://github.com/npm/npm/issues>
+826 verbose exit [ 1, true ]
+827 verbose unbuild node_modules\fis3
+828 info preuninstall fis3@3.3.6
+829 info uninstall fis3@3.3.6
+830 verbose unbuild rmStuff fis3@3.3.6 from D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules
+831 silly gentlyRm D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3.cmd is being gently removed
+832 silly gentlyRm verifying D:\MyConfiguration\zy10746\AppData\Roaming\npm is an npm working directory
+833 silly gentlyRm containing path D:\MyConfiguration\zy10746\AppData\Roaming\npm is under npm's control, in D:\MyConfiguration\zy10746\AppData\Roaming\npm
+834 silly gentlyRm deletion target D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3.cmd is under D:\MyConfiguration\zy10746\AppData\Roaming\npm
+835 verbose gentlyRm vacuuming from D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3.cmd up to D:\MyConfiguration\zy10746\AppData\Roaming\npm
+836 silly gentlyRm D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3 is being gently removed
+837 silly gentlyRm verifying D:\MyConfiguration\zy10746\AppData\Roaming\npm is an npm working directory
+838 silly gentlyRm containing path D:\MyConfiguration\zy10746\AppData\Roaming\npm is under npm's control, in D:\MyConfiguration\zy10746\AppData\Roaming\npm
+839 silly gentlyRm deletion target D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3 is under D:\MyConfiguration\zy10746\AppData\Roaming\npm
+840 verbose gentlyRm vacuuming from D:\MyConfiguration\zy10746\AppData\Roaming\npm\fis3 up to D:\MyConfiguration\zy10746\AppData\Roaming\npm
+841 info postuninstall fis3@3.3.6
+842 silly gentlyRm D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3 is being purged from base D:\MyConfiguration\zy10746\AppData\Roaming\npm
+843 verbose gentlyRm don't care about contents; nuking D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+844 silly vacuum-fs purging D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules\fis3
+845 silly vacuum-fs quitting because other entries in D:\MyConfiguration\zy10746\AppData\Roaming\npm\node_modules
