@@ -2,7 +2,8 @@
   "name": "seven",
   "version": "1.0.0",
   "description": "packaging tools",
-  "main": "index.js",
+  "main": "seven.js",
+
   "scripts": {
     "test": "seven test"
   },
